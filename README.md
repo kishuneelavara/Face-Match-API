@@ -6,5 +6,5 @@ This is a simple OCR (Optical Character Recognition) API created using Flask fra
     Installation of all libraries mentioned in the requirements.txt file.
 
 ## **Installation**
-1 Clone this repository to your local machine or server.
+### ****1 Clone this repository to your local machine or server.****
     git clone <repository_url>
