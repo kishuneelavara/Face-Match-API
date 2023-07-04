@@ -56,7 +56,7 @@ This is a simple OCR (Optical Character Recognition) API created using Flask fra
 Receive the response containing the extracted text.
 
 ## **How to run API once the Server is Up and running**
-    Demo : https://drive.google.com/file/d/1SSyx-NxW9NsJLyaIY70XuzHCt2v4y2Ir/view?usp=sharing 
+Demo : https://drive.google.com/file/d/1SSyx-NxW9NsJLyaIY70XuzHCt2v4y2Ir/view?usp=sharing 
     
     
     
