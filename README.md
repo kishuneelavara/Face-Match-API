@@ -48,11 +48,11 @@ This is a simple OCR (Optical Character Recognition) API created using Flask fra
 ######5 Once the server is running, you can access the API using the following URLs: 
     Public IP: http://<public_ip_of_ec2>:<portnumber>/extract_document_api
     Public IP with port 5003: http://<public_ip_of_ec2>:5003/extract_document_api
-
-
+   
+_____________________________________________________________________________________________________________
 ##### 1 Make a POST request to the API endpoint with the image(document) you want to extract information from.
 ##### 2 Receive the JSON response containing the specific information of the document.
-
+_____________________________________________________________________________________________________________
 
 #### **How to run API once the Server is Up and running**
 Demo : https://drive.google.com/file/d/1SSyx-NxW9NsJLyaIY70XuzHCt2v4y2Ir/view?usp=sharing 
