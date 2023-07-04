@@ -18,10 +18,10 @@ This is a simple OCR (Optical Character Recognition) API created using Flask fra
     python -m venv <your_env_name>
     
 ###### 3 Activate the virtual environment.
-For Windows:
-    `<your_env_name>\Scripts\activate`
-For Unix/macOS:
-    `source venv/bin/activate`
+    For Windows:
+        `<your_env_name>\Scripts\activate`
+    For Unix/macOS:
+        `source venv/bin/activate`
 
     
     
