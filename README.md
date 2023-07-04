@@ -17,11 +17,16 @@ This is a simple OCR (Optical Character Recognition) API created using Flask fra
     or 
     python -m venv <your_env_name>
     
-###### 3 Activate the virtual environment.
+###### 4 Activate the virtual environment.
     For Windows:
         `<your_env_name>\Scripts\activate`
+        
     For Unix/macOS:
         `source venv/bin/activate`
-
+        
+###### 5 Install the required libraries using pip.
+    pip install -r requirements.txt
+    or 
+    pip3 install -r requirements.txt
     
     
