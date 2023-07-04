@@ -41,16 +41,11 @@ This is a simple OCR (Optical Character Recognition) API created using Flask fra
 
 
 ## **How to Deploy the API in AWS Windows EC2 Server**
-1 Create a Windows EC2 server with required storage and with security group such as custom TCP and mention your Port in this case it is 5003 also add new rule such as RDP, HTTP and HTTPS.
-
-2 Change setting in Windows Ec2 System - Windows Defender Firewall -> Advanced Setting -> Windows Defender Firewall properties => change inbound connection as Allow for all the 3 tabs such as domain, private , public
-
-3 Change setting in Windows Ec2 System - Windows Defender Firewall -> Advanced Setting -> Inbound Rules -> New Rule -> Port -> Next -> Select TCP and Mention your specific local port (here its 5003) -> Next -> select Allow the Connection -> Next -> check all check box (Domain , Private, Public) -> Next -> Give name -> Finish
-
-4 Once after creating ec2 server and after setting  Follow the above installation procedure and usage procedure to start the Flask Server or OCR API
-
-5 Once the server is running, you can access the API using the following URLs:
-###### 
+######1 Create a Windows EC2 server with required storage and with security group such as custom TCP and mention your Port in this case it is 5003 also add new rule such as RDP, HTTP and HTTPS.
+######2 Change setting in Windows Ec2 System - Windows Defender Firewall -> Advanced Setting -> Windows Defender Firewall properties => change inbound connection as Allow for all the 3 tabs such as domain, private , public
+######3 Change setting in Windows Ec2 System - Windows Defender Firewall -> Advanced Setting -> Inbound Rules -> New Rule -> Port -> Next -> Select TCP and Mention your specific local port (here its 5003) -> Next -> select Allow the Connection -> Next -> check all check box (Domain , Private, Public) -> Next -> Give name -> Finish
+######4 Once after creating ec2 server and after setting  Follow the above installation procedure and usage procedure to start the Flask Server or OCR API
+######5 Once the server is running, you can access the API using the following URLs: 
     Public IP: http://<public_ip_of_ec2>:<portnumber>/extract_document_api
     Public IP with port 5003: http://<public_ip_of_ec2>:5003/extract_document_api
 
