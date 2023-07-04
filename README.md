@@ -53,9 +53,8 @@ This is a simple OCR (Optical Character Recognition) API created using Flask fra
 ##### 1 Make a POST request to the API endpoint with the image(document) you want to extract information from.
 ##### 2 Receive the JSON response containing the specific information of the document.
 
-Receive the response containing the extracted text.
 
-## **How to run API once the Server is Up and running**
+#### **How to run API once the Server is Up and running**
 Demo : https://drive.google.com/file/d/1SSyx-NxW9NsJLyaIY70XuzHCt2v4y2Ir/view?usp=sharing 
     
     
